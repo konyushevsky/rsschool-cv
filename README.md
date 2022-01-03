@@ -1,1 +1,1 @@
-# rsschool-cv
+https://konyushevsky.github.io/rsschool-cv/
