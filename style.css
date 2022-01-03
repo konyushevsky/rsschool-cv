@@ -6,6 +6,10 @@
 
 /* my style */
 
+html {
+  scroll-behavior: smooth; 
+}
+
 * {
   box-sizing: border-box;
 }
@@ -17,7 +21,6 @@ body {
   flex-direction: column;
   justify-content: space-between;
   font-family: 'Raleway';
-  background-color: blue;
   min-height: 100vh;
 }
 
@@ -30,7 +33,6 @@ h1 {
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  border: 1px solid blueviolet;
 }
 
 .header {
@@ -47,18 +49,66 @@ h1 {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  list-style: none;
 }
 
 .nav-item {
   margin: 0;
-  padding: 5px;
-  list-style-type: none;
 }
 
 .nav-link {
-  color: rgb(27, 27, 27);
+  padding: 0 10px;
   font-size: 16px;
   font-weight: 600;
   font-style: normal;
+  text-decoration: none;
+  color: rgb(27, 27, 27);
+  transition: .3s;
+}
+
+.nav-link:hover {
+  color: rgb(92, 92, 92);
+}
+
+.section-title {
+  font-size: 16px;
+  color: rgb(92, 92, 92);
+}
+
+.section-content {
+  display: block;
+  margin: 0;
+  padding-bottom: 21px;
+  font-size: 14px;
+  list-style: none;
+  line-height: 21px;
+}
+
+.code-content {
+  padding-left: 42px;
+}
+
+.main {
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.footer {
+  margin: 0 auto;
+  padding: 42px;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(27, 27, 27); 
+}
+
+.gh-link {
+  padding-right: 10px;
+  font-weight: 700;
+  text-decoration: none;
+  color: rgb(27, 27, 27);
+}
+
+.rs-link {
+  padding-left: 10px;
   text-decoration: none;
 }

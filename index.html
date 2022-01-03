@@ -28,14 +28,82 @@
       </nav>
     </div>
   </header>
-  <main>
+  <main class="main">
     <div class="container">
-      Содержание
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <ul class="section-content">
+          <li>Phone number: <i>+7 (962) 926-18-35</i></li>
+          <li>Discord: <i>lalala_bob(@Konyushevsky)</i></li>
+        </ul>
+      </section>
+      <section class="section" id="about">
+        <h2 class="section-title">About me</h2>
+        <ul class="section-content">
+          <li>I want to be a good developer and create something that people will love.</li>
+          <li>Systems and all new are one love.</li>
+          <li>My strong point is the constant desire to understand that something is as deep as possible.</li>
+          <li>I can also put everything in the form of a model and create these models in the code.</li>
+        </ul>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul class="section-content">
+          <li>GIT</li>
+          <li>SQL</li>
+          <li>Statistics</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </section>
+      <section class="section" id="code">
+        <h2 class="section-title">Code example</h2>
+        <code class="section-content code-content">
+          function array(arr){ <br />
+          &nbsp; let currentString = arr.replace(/\s/, ''); <br />
+          &nbsp; let currentArray  = currentString.split(',') <br />
+          
+          &nbsp; if (currentArray.length == 2 || currentArray.length == 1 || currentArray.length == 0) { <br />
+          &nbsp;&nbsp;&nbsp; return null; <br />
+          &nbsp; } else { <br />
+          &nbsp;&nbsp;&nbsp; currentArray = currentArray.slice(1,currentArray.length - 1); <br />
+          &nbsp;&nbsp;&nbsp; return currentArray.join(' '); <br />
+          &nbsp; }  <br />
+          } <br />
+        </code>
+      </section>
+      <section class="section" id="experience">
+        <h2 class="section-title">Experience</h2>
+        <ul class="section-content">
+          <li>Two years in the development of financial systems.</li>
+          <li>Freelance</li>
+        </ul>
+      </section>
+      <section class="section" id="education">
+        <h2 class="section-title">Education</h2>
+        <ul class="section-content">
+          <li>Graduated from the Higher School of Humanities in Psychology and Political Science</li>
+          <li>Tableau Courses</li>
+          <li>UX / UI courses</li>
+          <li>PowerBI courses</li>
+        </ul>
+
+      </section>
+      <section class="section" id="languages">
+        <h2 class="section-title">Languages</h2>
+        <ul class="section-content">
+          <li>English - A1</li>
+          <li>Polish at the level of understanding</li>
+        </ul>
+      </section>
     </div>
   </main>
-  <footer> 
+  <footer class="footer">
     <div class="container">
-      Подвал
+      <a href="https://github.com/konyushevsky" class="gh-link">My github account Link</a>
+      <time datetime="2022-01-03">03.01.2022</time>
+      <a class="rs-link" href="https://rs.school/js-stage0/"><img src="./assets/svg/rs_school_js.svg" alt="rs school course" width="40"></a>
     </div>
   </footer>
 </body>
